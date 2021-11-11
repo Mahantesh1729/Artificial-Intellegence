@@ -1,7 +1,6 @@
 import emoji
 player, computer = 'x', 'o'
 
-#this function is to check if there are any moves left in the game
 
 def main():
     board = [
@@ -94,6 +93,7 @@ def printBoard(b):
     for i in range(3):
         print(b[i])
 
+#this function is to check if there are any moves left in the game
 def isMovesLeft(board):
     for i in range(3):
         for j in range(3):
